@@ -3,7 +3,7 @@
 {% load static %}
 {% load i18n %}
 
-{% block title %}Dorero - Analytics Dashboard{% endblock title %}
+{% block title %}Food App - Analytics Dashboard{% endblock title %}
 
 {% block vendor_css %}
 {{ block.super }}
@@ -26,13 +26,13 @@
   <div class="col-md-12 col-lg-4">
     <div class="card">
       <div class="card-body text-nowrap">
-        <h5 class="card-title mb-0 flex-wrap text-nowrap">Welcome, Charles & Mark! 🎉</h5>
-        <p class="mb-2">Computer Studies Department Dashboard</p>
-        <h4 class="text-primary mb-0">Prof. Kristine Joy Martinez</h4>
-        <p class="mb-2">CC 6\L - AppDev</p>
-        <a href="javascript:;" class="btn btn-sm btn-primary">View Details</a>
+        <h5 class="card-title mb-0 flex-wrap text-nowrap">Welcome, Jovi Pacto & Aethan!</h5>
+        <p class="mb-2">Food App with Restaurant Dashboard</p>
+        <h4 class="text-primary mb-0">Prof. Melissa Olit</h4>
+        <p class="mb-2">Income Generating Project - IGP</p>
+        <a href="javascript:;" class="btn btn-sm btn-primary">View Menus</a>
       </div>
-      <img src="{% static 'img/illustrations/KjMartinez.png' %}" 
+      <img src="{% static 'img/illustrations/igp.png' %}" 
       class="position-absolute bottom-0 end-0 me-5 mb-5 " width="83" alt="view sales">
     </div>
   </div>
@@ -43,7 +43,7 @@
     <div class="card h-100">
       <div class="card-header">
         <div class="d-flex align-items-center justify-content-between">
-          <h5 class="card-title m-0 me-2">Programming Languages for AppDev by Domain</h5>
+          <h5 class="card-title m-0 me-2">Daily Target Income!</h5>
           <div class="dropdown">
             <button class="btn text-muted p-0" type="button" id="transactionID" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="ri-more-2-line ri-24px"></i>
@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <p class="small mb-0"><span class="h6 mb-0">Total 48.5% Growth</span> 😎 this month</p>
+        <p class="small mb-0"><span class="h6 mb-0">Total 30.5% Growth</span> 😎 this week</p>
       </div>
       <div class="card-body pt-lg-10">
         <div class="row g-6">
@@ -63,12 +63,12 @@
             <div class="d-flex align-items-center">
               <div class="avatar">
                 <div class="avatar-initial bg-primary rounded shadow-xs">
-                  <i class="ri-code-s-slash-line ri-24px"></i>
+                  <i class="ri-money-dollar-box-line ri-24px"></i>
                 </div>
               </div>
               <div class="ms-3">
-                <p class="mb-0">Frontend</p>
-                <h5 class="mb-0">₱ 245k</h5>
+                <p class="mb-0">Funds</p>
+                <h5 class="mb-0">₱ 45k</h5>
               </div>
             </div>
           </div>
@@ -76,11 +76,11 @@
             <div class="d-flex align-items-center">
               <div class="avatar">
                 <div class="avatar-initial bg-success rounded shadow-xs">
-                  <i class="ri-database-2-line ri-24px"></i>
+                  <i class="ri-projector-2-line ri-24px"></i>
                 </div>
               </div>
               <div class="ms-3">
-                <p class="mb-0">Backend</p>
+                <p class="mb-0">Projects</p>
                 <h5 class="mb-0">₱ 12.5k</h5>
               </div>
             </div>
@@ -93,8 +93,8 @@
                 </div>
               </div>
               <div class="ms-3">
-                <p class="mb-0">Mobile Development</p>
-                <h5 class="mb-0">₱ 1.54k</h5>
+                <p class="mb-0">Mobile App</p>
+                <h5 class="mb-0">₱ 54k</h5>
               </div>
             </div>
           </div>
@@ -102,11 +102,11 @@
             <div class="d-flex align-items-center">
               <div class="avatar">
                 <div class="avatar-initial bg-info rounded shadow-xs">
-                  <i class="ri-computer-line ri-24px"></i>
+                  <i class="ri-shopping-cart-line ri-24px"></i>
                 </div>
               </div>
               <div class="ms-3">
-                <p class="mb-0">Desktop Applications</p>
+                <p class="mb-0">Menu sold</p>
                 <h5 class="mb-0">₱ 88k</h5>
               </div>
             </div>
@@ -122,7 +122,7 @@
     <div class="card">
       <div class="card-header">
         <div class="d-flex justify-content-between">
-          <h5 class="mb-1">Computer Studies Department Program</h5>
+          <h5 class="mb-1">Income Generating Project Performance</h5>
           <div class="dropdown">
             <button class="btn text-muted p-0" type="button" id="weeklyOverviewDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="ri-more-2-line ri-24px"></i>
@@ -139,11 +139,11 @@
         <div id="weeklyOverviewChart"></div>
         <div class="mt-1 mt-md-3">
           <div class="d-flex align-items-center gap-4">
-            <h4 class="mb-0">69%</h4>
-            <p class="mb-0">Number of Students Enrolled</p>
+            <h4 class="mb-0">57.4%  Revenue Target Achieved</h4>
+            <p class="mb-0">Project Financial Details</p>
           </div>
           <div class="d-grid mt-3 mt-md-4">
-            <button class="btn btn-primary" type="button">Student Details</button>
+            <button class="btn btn-primary" type="button">Income Generating Project</button>
           </div>
         </div>
       </div>
@@ -155,13 +155,13 @@
   <div class="col-xl-4 col-md-6">
     <div class="card">
       <div class="card-header d-flex align-items-center justify-content-between">
-        <h5 class="card-title m-0 me-2">Programming languages</h5>
+        <h5 class="card-title m-0 me-2">Income Generating Projects Revenue</h5>
         <div class="dropdown">
           <button class="btn text-muted p-0" type="button" id="totalEarnings" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="ri-more-2-line ri-24px"></i>
           </button>
           <div class="dropdown-menu dropdown-menu-end" aria-labelledby="totalEarnings">
-            <a class="dropdown-item" href="javascript:void(0);">Last 28 Days</a>
+            <a class="dropdown-item" href="javascript:void(0);">Last 6 Days</a>
             <a class="dropdown-item" href="javascript:void(0);">Last Month</a>
             <a class="dropdown-item" href="javascript:void(0);">Last Year</a>
           </div>
@@ -176,7 +176,7 @@
               <span>78%</span>
             </span>
           </div>
-          <p class="mb-0">Compared to ₱ 84,325 last sem</p>
+          <p class="mb-0">Compared to ₱ 84,325 last quarter</p>
         </div>
         <ul class="p-0 m-0">
           <li class="d-flex mb-6">
@@ -186,7 +186,7 @@
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
                 <h6 class="mb-0">Banko Central Pilipinas</h6>
-                <p class="mb-0">Vuejs, React & HTML</p>
+                <p class="mb-0">Revenue: ₱24,895.65 (21% of total)</p>
               </div>
               <div>
                 <h6 class="mb-2">₱ 24,895.65</h6>
@@ -203,10 +203,10 @@
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
                 <h6 class="mb-0">BDO</h6>
-                <p class="mb-0">Sketch, Figma & Photoshop</p>
+                <p class="mb-0">Revenue: ₱86,500.20 (70% of total)</p>
               </div>
               <div>
-                <h6 class="mb-2">₱ 8,6500.20</h6>
+                <h6 class="mb-2">₱ 86,500.20</h6>
                 <div class="progress bg-label-info" style="height: 4px;">
                   <div class="progress-bar bg-info" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -220,10 +220,10 @@
             <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
               <div class="me-2">
                 <h6 class="mb-0">RCBC Bank</h6>
-                <p class="mb-0">HTML & Angular</p>
+                <p class="mb-0">Revenue: ₱12,450.80 (9% of total)</p>
               </div>
               <div>
-                <h6 class="mb-2">₱ 1,2450.80</h6>
+                <h6 class="mb-2">₱ 12,450.80</h6>
                 <div class="progress bg-label-secondary" style="height: 4px;">
                   <div class="progress-bar bg-secondary" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -247,7 +247,7 @@
     </div>
     <div class="card-body">
       <div id="totalProfitPieChart"></div>
-      <h6 class="text-center mb-0">Total Programming Sales</h6>
+      <h6 class="text-center mb-0">Total Project Sales</h6>
     </div>
   </div>
 </div>
@@ -273,12 +273,12 @@
             </div>
           </div>
           <div class="card-body">
-            <h6 class="mb-1">Top Programming Languages in 2025</h6>
+            <h6 class="mb-1">Top Income Generating Projects (2025)</h6>
             <div class="d-flex flex-wrap mb-1 align-items-center">
-              <h4 class="mb-0 me-2">₱ 25.6k</h4>
-              <p class="text-success mb-0">65% of devs use Python</p>
+              <h4 class="mb-0 me-2">₱256,000 Monthly Revenue</h4>
+              <p class="text-success mb-0">65% Profit Margin</p>
             </div>
-            <small>Weekly Project to Company</small>
+            <small>Key Project Highlights</small>
           </div>
         </div>
       </div>
@@ -304,12 +304,12 @@
             </div>
           </div>
           <div class="card-body">
-            <h6 class="mb-1">New Programming</h6>
+            <h6 class="mb-1">Enterprise Automation Suite</h6>
             <div class="d-flex flex-wrap mb-1 align-items-center">
-              <h4 class="mb-0 me-2">862</h4>
-              <p class="text-danger mb-0">-45</p>
+              <h4 class="mb-0 me-2">753</h4>
+              <p class="text-danger mb-0">-40</p>
             </div>
-            <small>Yearly Project use Programming Languages</small>
+            <small>Revenue Share: 40% of total</small>
           </div>
         </div>
       </div>
@@ -318,12 +318,12 @@
       <div class="col-sm-6">
   <div class="card h-100">
     <div class="card-header d-flex justify-content-between align-items-center pb-0">
-      <h4 class="mb-0">₱ 2,856</h4>
-      <span class="badge bg-label-primary">+12.6%</span>
+      <h4 class="mb-0">₱ 21,675</h4>
+      <span class="badge bg-label-primary">+89.6%</span>
     </div>
     <div class="card-body">
       <div id="sessionsColumnChart" class="mt-2"></div>
-      <h6 class="text-center mt-3 mb-0">Monthly Sessions Growth</h6>
+      <h6 class="text-center mt-3 mb-0">Monthly Sessions Growth Sales</h6>
     </div>
   </div>
 </div>
@@ -336,13 +336,13 @@
   <div class="col-xl-4 col-md-6">
     <div class="card h-100">
       <div class="card-header d-flex align-items-center justify-content-between">
-        <h5 class="card-title m-0 me-2">Type of Programs</h5>
+        <h5 class="card-title m-0 me-2">Type of Best Menu Brand </h5>
         <div class="dropdown">
           <button class="btn text-muted p-0" type="button" id="saleStatus" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="ri-more-2-line ri-24px"></i>
           </button>
           <div class="dropdown-menu dropdown-menu-end" aria-labelledby="saleStatus">
-            <a class="dropdown-item" href="javascript:void(0);">Last 28 Days</a>
+            <a class="dropdown-item" href="javascript:void(0);">Last 12 Days</a>
             <a class="dropdown-item" href="javascript:void(0);">Last Month</a>
             <a class="dropdown-item" href="javascript:void(0);">Last Year</a>
           </div>
@@ -607,8 +607,8 @@
         <table class="table table-sm">
           <thead>
             <tr>
-              <th class="text-truncate">Fullname</th>
-              <th class="text-truncate">PSU Email</th>
+              <th class="text-truncate">Fullname Staff</th>
+              <th class="text-truncate">IGP Email</th>
               <th class="text-truncate">Role</th>
               <th class="text-truncate">Status</th>
             </tr>
